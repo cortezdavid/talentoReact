@@ -1,0 +1,29 @@
+.footer-container {
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo img{
+    width: 200px;
+}
+
+.footer-content h3 {
+    font-weight: 700;
+}
+
+.footer-contact p,
+.footer-links a {
+    margin: 8px 0;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

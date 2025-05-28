@@ -1,0 +1,41 @@
+.contact-section {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #25b09b;
+}
+
+.submit {
+    background-color: #1e8e7e;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    width: 50%;
+    color: #1e8e7e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info-item {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-item h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
