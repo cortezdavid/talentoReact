@@ -26,7 +26,7 @@ function App() {
         <Route path='/producto/:id' element={<Details addToCart={addToCart} />} />
         <Route path='/login' element={<Login />} />
         <Route path='/admin' element={<AuthRoute isAuthenticated={isAuthenticated}> <Admin /> </AuthRoute>} />
-        <Route path='/*' element={<Error />} />
+        <Route path='*' element={<Error />} />
       </Routes>
       <Footer />
     </Router>
